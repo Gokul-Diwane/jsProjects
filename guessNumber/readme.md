@@ -18,15 +18,8 @@ If you run out of attempts, the game ends and shows the correct number.
 
 You can start a new game after finishing.
 
-📂 Project Structure
-bash
-Copy
-Edit
-todoList/
-├── index.html    # Main HTML file
-├── style.css     # Styling for the game
-└── script.js     # Game logic
 🚀 Technologies Used
+
 HTML5
 
 CSS3
@@ -41,4 +34,4 @@ Real-time feedback after each guess
 Option to restart the game easily
 
 🖥️ Preview
-Coming soon! (Or you can deploy it on GitHub Pages and share the link here.)
+Coming soon!
