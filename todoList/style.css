@@ -1,0 +1,98 @@
+/* Reset some defaults */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+}
+
+/* Center the main container */
+.mainDiv {
+    width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 30px;
+}
+
+/* Input and button styling */
+.ip {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Task list styling */
+.ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.ul li {
+    background-color: #ecf0f1;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.ul li:hover {
+    transform: scale(1.02);
+}
+
+/* Delete button inside list items */
+.delete {
+    padding: 6px 12px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete:hover {
+    background-color: #c0392b;
+}
+
+/* No tasks message */
+#para {
+    color: #7f8c8d;
+    font-style: italic;
+    margin-top: 20px;
+}
